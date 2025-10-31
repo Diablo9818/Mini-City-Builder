@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="flex-grow: 1; justify-content: space-between;">
+        <ui:VisualElement name="TopBar" style="flex-direction: row; background-color: rgba(0, 0, 0, 0.7); padding: 10px; justify-content: space-between;">
+            <ui:Label name="GoldLabel" text="Gold: 1000" style="font-size: 24px; color: rgb(255, 215, 0); -unity-font-style: bold;" />
+            <ui:VisualElement style="flex-direction: row;">
+                <ui:Button name="SaveButton" text="Save" style="margin-right: 5px; padding: 5px 15px;" />
+                <ui:Button name="LoadButton" text="Load" style="padding: 5px 15px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="CenterArea" style="flex-grow: 1; justify-content: center; align-items: center;">
+            <ui:Label name="MessageLabel" style="font-size: 20px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.5); padding: 10px; border-radius: 5px; opacity: 1; display: none; visibility: visible;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BottomUI" style="flex-direction: row; justify-content: space-between; padding: 10px;">
+            <ui:VisualElement name="BuildingPanel" style="background-color: rgba(0, 0, 0, 0.7); padding: 10px; border-radius: 5px;">
+                <ui:Label text="Buildings (1/2/3)" style="font-size: 16px; color: rgb(255, 255, 255); margin-bottom: 5px; -unity-font-style: bold;" />
+                <ui:VisualElement style="flex-direction: row;">
+                    <ui:Button name="HouseButton" style="width: 80px; height: 80px; margin: 5px; background-color: rgba(100, 100, 255, 0.8);">
+                        <ui:Label text="House&#10;100G" style="color: white; -unity-text-align: middle-center;" />
+                    </ui:Button>
+                    <ui:Button name="FarmButton" style="width: 80px; height: 80px; margin: 5px; background-color: rgba(100, 255, 100, 0.8);">
+                        <ui:Label text="Farm&#10;150G" style="color: white; -unity-text-align: middle-center;" />
+                    </ui:Button>
+                    <ui:Button name="MineButton" style="width: 80px; height: 80px; margin: 5px; background-color: rgba(150, 100, 50, 0.8);">
+                        <ui:Label text="Mine&#10;200G" style="color: white; -unity-text-align: middle-center;" />
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="SelectionPanel" style="background-color: rgba(0, 0, 0, 0.7); padding: 10px; border-radius: 5px; display: none;">
+                <ui:Label text="Selected Building" style="font-size: 16px; color: rgb(255, 255, 255); margin-bottom: 5px; -unity-font-style: bold;" />
+                <ui:VisualElement style="flex-direction: column;">
+                    <ui:Button name="UpgradeButton" text="Upgrade" style="margin: 5px; padding: 10px;" />
+                    <ui:Button name="MoveButton" text="Move" style="margin: 5px; padding: 10px;" />
+                    <ui:Button name="DeleteButton" text="Delete (Del)" style="margin: 5px; padding: 10px; background-color: rgba(255, 0, 0, 0.5);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

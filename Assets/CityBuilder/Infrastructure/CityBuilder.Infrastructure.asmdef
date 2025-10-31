@@ -1,0 +1,22 @@
+{
+    "name": "CityBuilder.Infrastructure",
+    "rootNamespace": "CityBuilder.Infrastructure",
+    "references": [
+        "CityBuilder.Domain",
+        "CityBuilder.Application",
+        "Unity.InputSystem",
+        "MessagePipe",
+        "MessagePipe.Unity",
+        "VContainer",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

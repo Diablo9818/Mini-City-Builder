@@ -1,0 +1,24 @@
+{
+    "name": "CityBuilder.Presentation",
+    "rootNamespace": "CityBuilder.Presentation",
+    "references": [
+        "CityBuilder.Domain",
+        "CityBuilder.Application",
+        "CityBuilder.Infrastructure",
+        "Unity.TextMeshPro",
+        "MessagePipe",
+        "R3.Unity",
+        "Unity.InputSystem",
+        "UniTask",
+        "UnityEngine.UIElementsModule"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
